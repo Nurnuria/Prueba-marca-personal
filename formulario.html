@@ -1,0 +1,69 @@
+<html>
+  <head>
+    <title> Nuria LG. </title>
+   <link rel="StyleSheet" href="parteCss.css" type="text/css">
+  </head>
+
+
+<body>
+
+<div class="header">
+  <h1> Introduce tus datos. </h1>
+</div>
+  <video autoplay muted loop id="video-background" type="video/mp4" src="video.mp4" ></video>
+
+
+<div id="foto">
+        <img src="imagen.jpg" alt="imagen" title="imagen"/>
+</div>
+
+
+<div class="contenedor">
+  <input type="checkbox" id="boton" />
+
+    <label class="button" for="boton">
+      
+        <p class="plus">+</p>
+
+    </label>
+  <nav class="nav">
+    <a href="PARTEPRINCIPAL.html" target="_blank">Volver a inicio</a>
+    <a href="sobreMi.html" target="_blank">Sobre mi</a>
+        <a href="servicios.html">Servicios</a>
+  </nav>
+  </div>
+
+
+<div class="cuadrado">  
+  <form id="contact" action="todook.html" method="post" onSubmit="return validacion();">
+    <h2>Contacta conmigo</h2>
+    <h3>¡Intentare contestarte lo antes posible!</h3>
+    <fieldset>
+        <label for="name"></label>
+      <input id="name" placeholder="Tu nombre" type="text" tabindex="1" required>
+    </fieldset>
+    <fieldset>
+      <label for="email"></label>
+      <input id="email" placeholder="Direccion de correo" type="email" tabindex="2" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Numero de contacto" type="tel" tabindex="3" required>
+    </fieldset>
+    <fieldset>
+      <label for="age"></label>
+      <input id="age" placeholder="Edad" type="number" tabindex="4" required>
+    </fieldset>
+    <fieldset>
+      <textarea placeholder="¿Algo que quieras contarme?" tabindex="5"></textarea>
+    </fieldset>
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Enviando">¡Enviar!</button>
+    </fieldset>
+    
+  </form>
+</div>
+
+<script src="ValidacionJs.js"></script>
+
+</body>
+</html>
